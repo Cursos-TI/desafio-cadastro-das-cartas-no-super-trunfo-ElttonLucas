@@ -1,15 +1,15 @@
 #include <stdio.h>
 
-int main() {
-    
-    char estado01;
-    char codigo01[2];
-    char nomeCidade01[50];
+int main (){
+
+    char estado01[20];
+    char codigo01[20];
+    char nomeCidade01[20];
     int populacao01, pontosTuristicos01;
     float area01, pib01;
 
-    char estado02;
-    char codigo02[2];
+    char estado02[20];
+    char codigo02[20];
     char nomeCidade02[50];
     int populacao02, pontosTuristicos02;
     float area02, pib02;
@@ -31,10 +31,10 @@ int main() {
     scanf("%f", &area01);
 
     printf("Diga o PIB do Estado:");
-    scanf("%f", pib01);
+    scanf("%f", &pib01);
 
     printf("Diga a quantidade de pontos turísticos do Estado:");
-    scanf("%d", pontosTuristicos01);
+    scanf("%d", &pontosTuristicos01);
 
     printf("Agora, iremos iserir os dados da carta 02: \n");
 
@@ -55,10 +55,10 @@ int main() {
     scanf("%f", &area02);
 
     printf("Diga o PIB do Estado:");
-    scanf("%f", pib02);
+    scanf("%f", &pib02);
 
     printf("Diga a quantidade de pontos turísticos do Estado:");
-    scanf("%d", pontosTuristicos02);
+    scanf("%d", &pontosTuristicos02);
 
     printf("Agora iremos mostrar os dados das cartas! \n");
 
@@ -81,4 +81,6 @@ int main() {
     printf("Pontos turísticos: %d \n", pontosTuristicos02);
 
     return 0;
+
+
 }
