@@ -3,13 +3,13 @@
 int main() {
     
     char estado01;
-    char codigo01[02];
+    char codigo01[2];
     char nomeCidade01[50];
     int populacao01, pontosTuristicos01;
     float area01, pib01;
 
     char estado02;
-    char codigo02[02];
+    char codigo02[2];
     char nomeCidade02[50];
     int populacao02, pontosTuristicos02;
     float area02, pib02;
